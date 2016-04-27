@@ -1,0 +1,8 @@
+JSON - Significa Java Script Object Notation.
+
+JSON é uma sintaxe de armazenamento e troca de informações. Ele utiliza formato identico ao código para 
+criar Objetos em JavaScript. O javascript utiliza funções para converter dados JSON em objetos nativos.
+Mostra-se como outra opção além XML no qual a performance dos dois são bem parecidas.
+
+
+
