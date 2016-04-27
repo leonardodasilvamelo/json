@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pagina com Json</title>
+  </head>
+
+  <body>
+    <h2> Criando Objeto com Java Script</h2>
+
+    <p id="NomeProgramador"></p>
+
+    <script>
+     var texto = '{"Nome":"Leonardo","SobreNome":"Melo","Idade":"29"}';
+     var objeto = JSON.parse(texto);
+
+     document.getElementById("NomeProgramador").innerHTML =
+     objeto.Nome +"</br>"+
+     objeto.SobreNome +"</br>"+
+     objeto.Idade
+
+    </script>
+
+  </body>
+</html>
